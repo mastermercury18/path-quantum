@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<style>
+    body{
+      background-image: url('/static/images/background.png'); 
+      background-size: cover; 
+      background-position: center; 
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+
+    }
+    form {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      max-width: 800px; 
+      width: 400%; 
+      margin: 0 auto; 
+    }
+    p{
+      font-family: 'Times New Roman', Times, serif;
+    }
+    label{
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 20px;
+    }
+    select{
+        height: 100px;
+        width: 500px;
+        text-align: center;
+        font-size: 30px;
+    }
+    select option{
+       font-size: 500px;
+    }
+</style>
+<body>
+    <form action="/form_content" method="POST">
+       <p style = "text-align: center; font-size: 35px;"> Welcome</p>
+
+        <label for = 'protein_cascade' style="font-size: 30px;">Choose protein cascade</label>
+        <br>
+       <select id = 'protein_cascade' name = 'protein_cascade'> 
+          <option value = 'Option 1' > Caspase-8 pathway in the thymus</option>
+          <option value = 'Option 2' > Apoptosis in RAT-2 rat fibroblasts</option>
+          <option value = 'Option 3' > Fas signaling pathway</option>
+          <option value = 'Option 4' > Protein Cascade 4</option>
+       </select>
+       <br>
+      <input type="submit" style = "margin-top: 20px; font-size: 20px;">
+    </form>
+    
+</body>
+</html>
