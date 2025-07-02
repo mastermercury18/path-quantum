@@ -1,4 +1,4 @@
-# 🧬 Quantum-Guided Apoptosis Pathway Selector
+# 🧬 Quantum-Enhanced Cell Signaling Pathway Optimizer 
 
 **Harnessing Quantum Optimization with Perceval to Model and Evaluate Protein Cascades for Cancer Suppression**
 
