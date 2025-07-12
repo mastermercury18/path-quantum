@@ -7,7 +7,7 @@
 ## 🧠 Overview
 
 This project leverages a **quantum-inspired approach to systems biology**, using photonic quantum computing via the **Perceval** framework to determine optimal protein signaling cascades that lead to **apoptosis** — the natural process of programmed cell death. By simulating synthetic biological networks as weighted graphs and mapping them to **QUBO (Quadratic Unconstrained Binary Optimization)** problems, this system efficiently identifies paths most likely to suppress cancer.
-
+a
 The backend is built in Python and integrates multiple HTML-based UI options for user input. At its core, the quantum pipeline selects shortest apoptotic pathways by analyzing probabilistic outputs from a photonic interferometer that encodes biological constraints.
 
 ---
